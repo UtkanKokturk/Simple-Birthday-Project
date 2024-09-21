@@ -55,10 +55,10 @@ const BirthdayPage: React.FC = () => {
                                     {'Hmmm Bu ne olabilir?'}
                                 </a>
                                 <p className="text-xs sm:text-sm font-bold tracking-wide whitespace-pre-line">
-                                    {'Şifreli mesaj: jqfci.ioz/CGR1Xti \n' + "Key: ???"}
-
+                                    {'📝 jqfci.ioz/CGR1Xti \n' + '🔑 ???'}
                                 </p>
-                                <img src={vigenereTable} alt={'Vigenere Table'} className="w-full max-w-[500px] h-auto mx-auto" />
+                                <img src={vigenereTable} alt={'Vigenere Table'}
+                                     className="w-full max-w-[500px] h-auto mx-auto"/>
                             </div>
                         )}
                     </div>
